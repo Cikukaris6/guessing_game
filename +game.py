@@ -13,6 +13,13 @@ while counter<5:
     elif user_number>random_number:
         print("Your guess is too high")
     elif user_number==random_number:
-        print("You win")
         break
+
+if user_number ==random_number:
+    print("You win")
+else:
+    print("Game over!The correct number was",random_number)
+
+
+
  
